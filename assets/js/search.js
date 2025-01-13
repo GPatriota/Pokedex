@@ -1,4 +1,4 @@
-
+let isShowingDetail = false;
 const searchButton = document.getElementById('searchButton');
 const pokemonSearchInput = document.getElementById('pokemonSearch');
 
@@ -35,6 +35,7 @@ function displayPokemon(pokemon) {
     
     
     pokemonList.innerHTML = pokemonHTML;
+    isShowingDetail = true;
 }
 
 
